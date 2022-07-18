@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&family=Roboto+Mono:wght@100;700&display=swap');
+
+body{
+    font-family: 'Edu TAS Beginner', cursive;;
+    margin:1%;
+    background-color: rgb(231, 213, 110);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+header .firstLine{
+    background-color: #e6cf09;
+    height: 120px;
+}
+
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: #b12590;
+}
+
+
+.header--img {
+    background-image: url('../images/biscuitlogo1.jpg');
+    background-size: cover;
+    margin-right: 200px;
+    height: 150px;
+    width: 150px;
+}
+
+.header--titulo {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/titulo.png');
+    background-size: cover;
+    margin-left: 80px;
+    height: 80px;
+    width: 700px;
+}
